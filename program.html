@@ -1,0 +1,91 @@
+<!-- ================= PROGRAMS PAGE ================= -->
+<!-- File: pages/programs.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs | SoulSync Yoga</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background:#f7f7f7;
+      padding:80px 8%;
+    }
+
+    .title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .title h1{
+      font-size:3.5rem;
+      color:#9d4d84;
+    }
+
+    .programs{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+      transition:0.4s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card h2{
+      margin-bottom:15px;
+      color:#9d4d84;
+    }
+
+    .card p{
+      line-height:1.8;
+      color:#555;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="title">
+  <h1>Our Programs</h1>
+</div>
+
+<div class="programs">
+
+  <div class="card">
+    <h2>Beginner Yoga</h2>
+    <p>Perfect for people starting their yoga journey.</p>
+  </div>
+
+  <div class="card">
+    <h2>Power Yoga</h2>
+    <p>Improve strength, flexibility, and endurance.</p>
+  </div>
+
+  <div class="card">
+    <h2>Meditation</h2>
+    <p>Relax your mind and reduce stress naturally.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
